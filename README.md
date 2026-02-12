@@ -1,27 +1,33 @@
-# Gerador de Dados Sintéticos (Data Fake Generator)
+<div align="center">
+
+# 📊 Integrated Data Simulator: Banking & Multi-Sector
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
-## Descrição do Projeto
-Este projeto é uma aplicação web interativa desenvolvida com **Streamlit** que permite a geração de bases de dados personalizadas para testes e estudos de Ciência de Dados. A ferramenta foi projetada para apoiar desenvolvedores e analistas que precisam de massas de dados realistas (mas fictícias) para validar sistemas ou treinar modelos preditivos.
+</div>
 
-O diferencial deste gerador é a segmentação por áreas estratégicas, incluindo um módulo focado em **Recuperação de Crédito**, essencial para análises de inadimplência e comportamento financeiro.
+Este projeto é uma aplicação web interativa desenvolvida com Streamlit para a geração de ecossistemas de dados sintéticos de alta fidelidade. Diferente de geradores genéricos, esta ferramenta foca na integridade referencial e no realismo de negócio, permitindo validar sistemas complexos e treinar modelos de Machine Learning com segurança e conformidade.
 
-## Funcionalidades
-- **Segmentação por Áreas:** Vendas, Saúde, RH e Recuperação de Crédito.
-- **Configuração Flexível:** Controle da quantidade de registros (10 a 1000) via slider.
-- **Dados Localizados:** Geração de nomes e documentos (CPF) seguindo o padrão brasileiro (pt-BR) através da biblioteca **Faker**.
-- **Exportação:** Download imediato da base gerada em formato `.csv`.
-- **Visualização:** Prévia dinâmica dos dados diretamente na interface.
+## 🌟 Diferenciais Estratégicos
+- **Ecossistema Bancário Relacional:** O grande destaque é o módulo de Crédito, que gera três tabelas integradas (Clientes, Transações e Status de Crédito) conectadas por UUIDs, simulando a estrutura de um Data Lake bancário real.
+- **Lógica de Negócio Ética:** O gerador utiliza correlações estatísticas entre renda e score, além de parâmetros de probabilidade para inadimplência, permitindo estudos sobre Equidade (Fairness) e viés em modelos de crédito.
+- **Segurança e Privacidade:** Ao criar massas de dados sintéticos localizados (pt-BR), o projeto promove a inovação tecnológica em conformidade com a LGPD, eliminando o risco do uso de dados sensíveis reais em ambientes de teste.
 
-## Tecnologias Utilizadas
-- **Linguagem:** Python
-- **Interface Web:** Streamlit
-- **Manipulação de Dados:** Pandas
-- **Geração de Dados Sintéticos:** Faker
-- **Gerenciamento de Dependências:** pip / requirements.txt
+## ⚙️ Funcionalidades
+- **Segmentação Multissetorial:** Suporte para Vendas, Saúde, RH e o avançado módulo de Risco de Crédito.
+- **Interface Orientada à UX:** Organização dos dados em abas (Tabs) para facilitar a inspeção por perfis técnicos e de negócios.
+- **Escalabilidade:** Controle dinâmico do volume de dados (10 a 1000 registros) com processamento otimizado via **Pandas**.
+- **Exportação Pronta para Engenharia:** Download independente dos arquivos .csv com codificação UTF-8, prontos para ingestão em bancos de dados SQL ou pipelines de MLOps.
+
+## 🛠️ Tecnologias Utilizadas
+- **Core:** Python 3.x
+- **Framework Web:** Streamlit.
+- **Data Engineering:** Pandas & NumPy.
+- **Synthetic Data:** Faker (Localização pt-BR).
+- **Ambiente:** Git, Requirements.txt e prontidão para Docker.
 
 ## Estrutura do Repositório
 - `app.py`: Código principal da aplicação.
