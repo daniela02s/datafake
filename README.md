@@ -9,6 +9,10 @@
 
 </div>
 
+<p align="center">
+  <img src="datafake_image.png" alt="Demonstração do App" width="700">
+</p>
+
 Este projeto é uma aplicação web interativa desenvolvida com Streamlit para a geração de ecossistemas de dados sintéticos de alta fidelidade. Diferente de geradores genéricos, esta ferramenta foca na integridade referencial e no realismo de negócio, permitindo validar sistemas complexos e treinar modelos de Machine Learning com segurança e conformidade.
 
 ## 🌟 Diferenciais Estratégicos
