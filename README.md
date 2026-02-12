@@ -38,7 +38,7 @@ O diferencial deste simulador é a geração de dados com correlações estatís
 A análise abaixo confirma que a lógica de negócio foi aplicada corretamente: clientes com **Score Baixo (0-500)** apresentam uma taxa de inadimplência significativamente maior (~83%) em comparação aos de **Score Alto** (~10%).
 
 <p align="center">
-  <img src="credit_risk_analysis.png" alt="Análise de Risco de Crédito" width="700">
+  <img src="assets/credit_risk_analysis.png" alt="Análise de Risco de Crédito" width="700">
 </p>
 
 ### *2. Distribuição Regional de Risco*
