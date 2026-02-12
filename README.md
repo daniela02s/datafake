@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Integrated Data Simulator: Banking & Multi-Sector
+# Integrated Data Simulator: Banking & Multi-Sector
 
 <p align="center">
 <i>Este simulador ajuda equipes de crédito a testar algoritmos de detecção de fraude e inadimplência sem expor dados reais de clientes</i>
@@ -30,14 +30,35 @@ Este projeto é uma aplicação web interativa desenvolvida com Streamlit para a
 - **Escalabilidade:** Controle dinâmico do volume de dados (10 a 1000 registros) com processamento otimizado via **Pandas**.
 - **Exportação Pronta para Engenharia:** Download independente dos arquivos .csv com codificação UTF-8, prontos para ingestão em bancos de dados SQL ou pipelines de MLOps.
 
+## 📊 Análise de Dados Sintéticos (Insights)
+
+O diferencial deste simulador é a geração de dados com correlações estatísticas realistas, permitindo o teste de modelos de risco de crédito sem expor dados sensíveis (LGPD Compliance).
+
+### *1. Relação Score vs. Inadimplência*
+A análise abaixo confirma que a lógica de negócio foi aplicada corretamente: clientes com **Score Baixo (0-500)** apresentam uma taxa de inadimplência significativamente maior (~83%) em comparação aos de **Score Alto** (~10%).
+
+<p align="center">
+  <img src="credit_risk_analysis.png" alt="Análise de Risco de Crédito" width="700">
+</p>
+
+### *2. Distribuição Regional de Risco*
+O sistema permite monitorar o volume de inadimplência por região geográfica, essencial para estratégias de cobrança e expansão de crédito regionalizada.
+
+| Região Geográfica | Volume de Inadimplentes |
+|:---:|:---:|
+| **RS** | 12 |
+| **BA** | 8 |
+| **MG** | 8 |
+| **RJ** | 7 |
+| **PR** | 6 |
+| **SP** | 4 |
+
+> **Nota Técnica:** Os dados acima são gerados via Python (Faker + Pandas) e processados para garantir a integridade referencial através de UUIDs únicos entre as tabelas de Clientes e Crédito.
+
 ## 🛠️ Tecnologias Utilizadas
 - **Core:** Python 3.x
 - **Framework Web:** Streamlit.
 - **Data Engineering:** Pandas & NumPy.
 - **Synthetic Data:** Faker (Localização pt-BR).
 - **Ambiente:** Git, Requirements.txt e prontidão para Docker.
-
-## Estrutura do Repositório
-- `app.py`: Código principal da aplicação.
-- `requirements.txt`: Lista de dependências para reprodução do ambiente.
 
