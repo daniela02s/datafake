@@ -1,0 +1,4 @@
+Faker @ file:///C:/b/abs_9f3qcavm1s/croot/faker_1749651685873/work
+numpy @ file:///C:/miniconda3/conda-bld/numpy_and_numpy_base_1763980696204/work/dist/numpy-2.3.5-cp312-cp312-win_amd64.whl#sha256=bb8e9f7cb576c32f24212604430b2633f649dc00ee0a9d8d46e18853acc3c7f9
+pandas @ file:///D:/bld/pandas_1764614466802/work
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1770235563682/work
